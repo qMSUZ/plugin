@@ -1,7 +1,6 @@
 #ifndef __datatypedefs_h__
 #define __datatypedefs_h__
 
-//#define AP_INT_MAX_W 2048
 #include "ap_int.h"
 
 
@@ -28,24 +27,9 @@
 #define IN_IntegerPart    32
 
 
-//#define IN_WordSize       40
-//#define IN_FractionalPart 32
-//#define IN_IntegerPart    8
-
-//#define OUT_WordSize     48
-//#define OUT_IntegerPart  16
-
 typedef ap_fixed<IN_WordSize, IN_IntegerPart> data_t;
 typedef ap_fixed<64, 32> d3232_t;
 
-//typedef float data_t;
-
-//typedef ap_fixed<IN_WordSize,IN_IntegerPart>   in_data_t;
-//typedef ap_fixed<OUT_WordSize,OUT_IntegerPart> out_data_t;
-
-//typedef ap_fixed<IN_WordSize,IN_IntegerPart>   t_fix_num;
-
-//Stypedef ap_fixed<48,16>   t_fix_48_16;
 
 typedef ap_ufixed<2,2> uint2_t;
 typedef ap_ufixed<4,4> uint4_t;
